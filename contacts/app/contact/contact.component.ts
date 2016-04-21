@@ -13,8 +13,8 @@ export class Contact {
 
 @Component({
     selector: 'contact',
-    templateUrl: './app/contact/contact.component.html',
-    styleUrls: ['./app/contact/contact.component.css'],
+    templateUrl: 'app/contact/contact.component.html',
+    styleUrls: ['app/contact/contact.component.css'],
     directives: [MD_CARD_DIRECTIVES, MdButton]
 })
 export class ContactComponent {

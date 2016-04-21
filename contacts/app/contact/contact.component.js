@@ -40,8 +40,8 @@ System.register(['angular2/core', '@angular2-material/button', '@angular2-materi
                 ContactComponent = __decorate([
                     core_1.Component({
                         selector: 'contact',
-                        templateUrl: './app/contact/contact.component.html',
-                        styleUrls: ['./app/contact/contact.component.css'],
+                        templateUrl: 'app/contact/contact.component.html',
+                        styleUrls: ['app/contact/contact.component.css'],
                         directives: [card_1.MD_CARD_DIRECTIVES, button_1.MdButton]
                     }), 
                     __metadata('design:paramtypes', [])
