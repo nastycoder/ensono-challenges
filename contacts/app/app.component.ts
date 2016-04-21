@@ -5,8 +5,8 @@ import {Contact, ContactComponent} from './contact/contact.component';
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/app.component.html',
-    styleUrls: ['app/app.component.css'],
+    templateUrl: './app/app.component.html',
+    styleUrls: ['./app/app.component.css'],
     viewProviders: [HTTP_PROVIDERS],
     directives: [ContactComponent]
 })
