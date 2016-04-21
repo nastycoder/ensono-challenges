@@ -42,7 +42,7 @@ System.register(['angular2/core', 'rxjs/add/operator/map', 'angular2/http', './c
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        templateUrl: '/app/app.component.html',
+                        templateUrl: 'app/app.component.html',
                         styleUrls: ['app/app.component.css'],
                         viewProviders: [http_1.HTTP_PROVIDERS],
                         directives: [contact_component_1.ContactComponent]
