@@ -1,0 +1,15 @@
+<md-card class="card">
+  <img md-avatar-img src="{{contact.avatar}}" alt="avatar"/>
+  <md-card-title id="title">{{contact.name}}</md-card-title>
+  <md-card-content>
+    <ul>
+      <li class="email"><a href="mailto:{{contact.email}}">{{contact.email}}</a></li>
+      <li class="phone">{{contact.phone}}</li>
+      <li class="birthday">{{contact.birthday}}</li>
+    </ul>
+  </md-card-content>
+  <md-card-actions>
+    <button md-button>email</button>
+    <button md-button>call</button>
+  </md-card-actions>
+</md-card>

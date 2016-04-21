@@ -1,0 +1,9 @@
+@import url("//fonts.googleapis.com/css?family=Roboto");
+.app-root {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  min-height: 1000px;
+  padding: 20px; }
+  .app-root h1 {
+    font-size: 20px; }
+
+/*# sourceMappingURL=app.component.css.map */
