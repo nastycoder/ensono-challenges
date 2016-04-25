@@ -1,3 +1,7 @@
+*.js
+*.js.map
+*.css
+*.css.map
 .sass-cache
 /typings
 
